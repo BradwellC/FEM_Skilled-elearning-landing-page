@@ -1,0 +1,178 @@
+@import url("https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@500;700;800&display=swap");
+
+:root {
+  --white: #ffffff;
+  --light-pink: #ffa7c3;
+  --pink: #f74780;
+  --grey-blue: #666ca3;
+  --dark-blue: #13183f;
+  --grey: #83869a;
+  --gradient-1: #f02aa6;
+  --gradient-2: #ff6f48;
+  --gradient-3: #4851ff;
+  --gradient-4: #f02aa6;
+
+  --fs-xl: 56px;
+  --fs-l: 40px;
+  --fs-m: 32px;
+  --fs-s: 24px;
+  --fs-body-m: 18px;
+  --fs-body-s: 16px;
+
+  --fw-extrabold: 800;
+  --fw-bold: 700;
+  --fw-medium: 500;
+
+  --ff-main: "Plus Jakarta Sans", sans-serif;
+
+  --layout-mobile: 375px;
+  --layout-tablet: 768px;
+  --layout-desktop: 1440px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: var(--layout-mobile);
+  height: 100%;
+  font-size: var(--fs-body-s);
+
+  font-family: var(--ff-main);
+
+  background: linear-gradient(var(--white), var(--white), var(--grey-blue));
+}
+
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+
+  padding: 2rem 1.2rem;
+}
+
+header p {
+  color: var(--dark-blue);
+  font-size: var(--fs-m);
+  font-weight: var(--fw-extrabold);
+}
+
+a {
+  text-decoration: none;
+}
+
+p {
+  color: var(--grey);
+  letter-spacing: 0.2px;
+}
+
+main {
+  /* padding: 0 1.2rem; */
+}
+
+.btn {
+  padding: 15px 20px;
+  border-radius: 30px;
+
+  font-size: 16px;
+}
+
+.btn-blue {
+  background-color: var(--dark-blue);
+  color: var(--white);
+}
+
+.btn-gradient-1 {
+  background: linear-gradient(var(--gradient-2), var(--gradient-1));
+  color: var(--white);
+}
+
+.heading {
+  padding: 2rem 0;
+}
+
+.heading h1 {
+  font-size: var(--fs-l);
+  font-weight: var(--fw-extrabold);
+  line-height: 51px;
+
+  color: var(--dark-blue);
+  padding: 0 1.2rem;
+}
+
+.heading p {
+  font-size: var(--fs-body-s);
+  font-weight: var(--fw-medium);
+  line-height: 26px;
+  color: var(--grey);
+}
+
+.heading img {
+  width: 343px;
+}
+
+.title {
+  padding: 2rem 0 2.2rem;
+}
+
+.title p {
+  font-weight: var(--fw-extrabold);
+  font-size: var(--fs-s);
+
+  line-height: 32px;
+  padding: 1.3rem;
+
+  background-image: linear-gradient(var(--gradient-2), var(--gradient-1));
+
+  color: var(--white);
+  border-radius: 10px;
+}
+
+.card {
+  margin: 1rem 0 3rem;
+  padding: 3rem 1.2rem;
+  position: relative;
+
+  background-color: var(--white);
+  border-radius: 10px;
+}
+
+.card img {
+  position: absolute;
+  top: -13%;
+}
+
+.card h1 {
+  font-size: 20px;
+  font-weight: var(--fw-extrabold);
+}
+
+.card p {
+  font-size: var(--fs-body-s);
+  line-height: 26px;
+
+  font-weight: var(--fw-medium);
+}
+
+.card a {
+  font-size: var(--fs-body-m);
+  font-weight: var(--fw-bold);
+
+  line-height: 28px;
+
+  color: var(--pink);
+}
+
+footer {
+  background-color: var(--dark-blue);
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+
+  padding: 2rem 1.2rem;
+}
