@@ -25,4 +25,25 @@ Users should be able to:
 - See hover states for interactive elements
 
 ### Screenshots
-# FEM_Skilled-elearning-landing-page
+
+## My Process
+
+### Built With
+
+- Semantic HTML5 markup
+- CSS custom properties
+- Mobile-first workflow
+- Flex
+
+### What i Learnt
+
+Used this challenge as a way of testing my skills and just building up a portfolio for projects created.
+
+### Continued Development
+
+I will continue doing this challenges but look at doing the more conplex ones and see how i find them or if they are too much for me.
+
+## Author
+
+- Chris Bradwell
+- Frontend Mentor - [@BradwellC](https://www.frontendmentor.io/profile/BradwellC)
